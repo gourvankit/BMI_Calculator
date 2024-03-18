@@ -1,0 +1,177 @@
+.formTop {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(165, 164, 164, 0.15);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 30px;
+}
+.errorAgeSelector {
+  display: flex;
+  flex-direction: column;
+}
+.errorAgeSelector span {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+  margin-top: 2px;
+}
+.errorAge {
+  font-size: 8px;
+  font-weight: 600;
+  color: red;
+}
+.errorCmHeight {
+  display: flex;
+  flex-direction: column;
+}
+.errorCmHeight span {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+  margin-top: 2px;
+}
+.selectOption {
+  font-size: 16px;
+  font-weight: 300;
+}
+.errorWeight {
+  display: flex;
+  flex-direction: column;
+}
+.errorWeight span {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+  margin-top: 2px;
+}
+.errorHeight {
+  display: flex;
+  flex-direction: column;
+}
+.errorHeightSpan {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+  margin-top: 2px;
+}
+.selectOption {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.selectOption select {
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+.selectOption select:focus {
+  outline: none;
+}
+.selectHeight,
+.selectWeight {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.selectHeight,
+.selectWeight {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.heightOptions,
+.weightOptions {
+  display: flex;
+  gap: 30px;
+}
+.weightOptions label {
+  display: flex;
+  align-items: center;
+}
+
+.heightOptions label {
+  display: flex;
+  align-items: center;
+}
+.weightOptions input {
+  margin-right: 5px;
+  accent-color: #657e79;
+  width: 24px;
+  height: 24px;
+}
+.heightOptions input {
+  margin-right: 5px;
+  accent-color: #657e79;
+  width: 24px;
+  height: 24px;
+}
+.cmHeight input {
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+.cmHeight input:focus {
+  outline: none;
+}
+.ftHeight {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.ftHeight input {
+  width: 140px;
+  height: 56px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+.weightInput input {
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+.calculate {
+  margin-top: 8px;
+  background-color: #657e79;
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  height: 56px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+.calculate:active {
+  background-color: #3d4c49;
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.ageSelector {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.ageSelector input {
+  width: 140px;
+  height: 56px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+}
+.ftHeight input:focus {
+  outline: none;
+}
+.ageSelector input:focus {
+  outline: none;
+}
